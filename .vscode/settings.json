@@ -1,5 +1,5 @@
 {
-    "idf.gitPath": "/usr/bin/git",
+    "idf.gitPath": "m:\\Repos\\ESP32_VGA\\ESP-IDF\\Tools\\tools\\idf-git\\2.30.1\\cmd\\git.exe",
     "idf.espIdfPathWin": "m:\\ESP\\Container\\esp-idf",
     "idf.pythonBinPathWin": "m:\\ESP\\Tools\\python_env\\idf4.4_py3.8_env\\Scripts\\python.exe",
     "idf.toolsPathWin": "m:\\ESP\\Tools",
@@ -9,5 +9,12 @@
     "idf.openOcdConfigs": [
         "interface/ftdi/esp32_devkitj_v1.cfg",
         "target/esp32.cfg"
-    ]
+    ],
+    "files.associations": {
+        "gpio.h": "c",
+        "led_strip.h": "c",
+        "i2s_lcd_driver.h": "c"
+    },
+    "idf.portWin": "COM5",
+    "idf.flashType": "UART"
 }
